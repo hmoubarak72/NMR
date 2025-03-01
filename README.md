@@ -33,9 +33,92 @@ Prerequisites
 
 Steps
 1. Clone this repository:
+  To clone the repository and access the specific file (`nmr_T2decay_model.py`) from the provided GitHub link, follow these step-by-step instructions:
+
+Step 1: Install Git
+Ensure that you have Git installed on your system. To check if Git is installed, run the following command in your terminal or command prompt:
+
+```bash
+git --version
+
+If Git is not installed, download and install it from the official website: [https://git-scm.com/](https://git-scm.com/).
+
+Step 2: Clone the Repository**
+
+The provided link points to a specific file in the repository, but to clone the entire repository, you need the repository's main URL. Based on the link you provided, the repository's main URL is:
+
+https://github.com/hmoubarak72/NMR.git
+
+Run the following command in your terminal or command prompt to clone the repository:
+
+```bash
+git clone https://github.com/hmoubarak72/NMR.git
+```
+
+This will create a local copy of the repository on your machine.
+
+Step 3: Navigate to the Cloned Repository
+After cloning, navigate into the cloned repository directory using the `cd` (change directory) command:
+
+```bash
+cd NMR
+```
+
+Step 4: Locate the Specific File
+The file you are interested in is located in the `main` branch under the path:
+
+nmr_T2decay_model.py
+```
+
+You can verify its presence by listing the files in the directory:
+
+```bash
+ls
+```
+
+If the file is present, you can open it using your preferred text editor or IDE (e.g., VS Code, PyCharm, or Jupyter Notebook).
+
+---
+
+Step 5: Run the Code
+1. Ensure you have Python installed. Check your Python version with:
    ```bash
-   git clone https: https://github.com/hmoubarak72/NMR.git
-   cd NMR
+   python --version
+   ```
+
+2. Install the required dependencies. If there is a `requirements.txt` file in the repository, install the dependencies using:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the script:
+   ```bash
+   python nmr_T2decay_model.py
+   ```
+
+Optional: Download Only the Specific File
+If you don't want to clone the entire repository and only need the specific file (`nmr_T2decay_model.py`), you can download it directly from GitHub:
+
+1. Visit the file's URL: [https://github.com/hmoubarak72/NMR/blob/main/nmr_T2decay_model.py](https://github.com/hmoubarak72/NMR/blob/main/nmr_T2decay_model.py).
+2. Click the "Raw" button to view the raw content of the file.
+3. Right-click anywhere on the page and select "Save As" to save the file to your computer.
+
+---
+
+Troubleshooting
+- Error: Repository Not Found
+  Ensure the repository URL is correct and publicly accessible. If the repository is private, you'll need permission from the owner to access it.
+
+- Missing Dependencies
+  If you encounter errors related to missing libraries, ensure you install all required dependencies using `pip`.
+
+- File Not Found
+  Double-check the file path in the repository. If the file has been moved or renamed, contact the repository owner for clarification.
+
+---
+
+By following these steps, you should be able to successfully clone the repository or download the specific file and run the code locally. Let me know if you encounter any issues!
+
    ```
 
 2. Install the required dependencies:
