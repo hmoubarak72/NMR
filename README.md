@@ -34,8 +34,8 @@ Prerequisites
 Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/nmr-petrophysics.git
-   cd nmr-petrophysics
+   git clone https: https://github.com/hmoubarak72/NMR.git
+   cd NMR
    ```
 
 2. Install the required dependencies:
